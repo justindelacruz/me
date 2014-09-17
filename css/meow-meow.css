@@ -64,7 +64,7 @@ ul li {
   color: #fff;
   text-align: center;
   padding: 0 10px;
-  background-color: rgba(7, 7, 22, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 /* line 68, ../sass/meow-meow.scss */
 .head .bio h1 {
@@ -94,11 +94,11 @@ ul li {
 }
 
 /* line 99, ../sass/meow-meow.scss */
-.row.content p, .row.content li {
+.content p, .content li {
   font-size: 15px;
 }
 /* line 103, ../sass/meow-meow.scss */
-.row.content h3 {
+.content h3 {
   text-align: center;
   font-size: 28px;
   padding: 0 10px;
@@ -106,21 +106,21 @@ ul li {
   margin: 40px 0;
 }
 /* line 112, ../sass/meow-meow.scss */
-.row.content h4 {
+.content h4 {
   font-size: 18px;
   font-weight: 600;
 }
 /* line 117, ../sass/meow-meow.scss */
-.row.content h5 {
+.content h5 {
   font-size: 14px;
   text-transform: uppercase;
 }
 /* line 123, ../sass/meow-meow.scss */
-.row.content a:link, .row.content a:visited {
+.content a:link, .content a:visited {
   color: #333333;
 }
 /* line 127, ../sass/meow-meow.scss */
-.row.content a:hover {
+.content a:hover {
   text-decoration: underline;
 }
 
@@ -134,74 +134,79 @@ ul li {
   text-align: left;
 }
 /* line 149, ../sass/meow-meow.scss */
+.professional-work p {
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+}
+/* line 154, ../sass/meow-meow.scss */
 .professional-work > hr {
   margin: 40px 0;
 }
-/* line 153, ../sass/meow-meow.scss */
-.professional-work .desktop-screenshot, .professional-work .mobile-screenshot {
-  border: 1px solid #ddd;
+/* line 159, ../sass/meow-meow.scss */
+.professional-work .desktop-screenshot img, .professional-work .mobile-screenshot img {
+  border: 4px solid #dadada;
+  border-radius: 10px;
 }
-/* line 157, ../sass/meow-meow.scss */
+/* line 165, ../sass/meow-meow.scss */
 .professional-work .desktop-screenshot {
   float: left;
 }
-/* line 161, ../sass/meow-meow.scss */
+/* line 169, ../sass/meow-meow.scss */
 .professional-work .mobile-screenshot {
   float: right;
 }
-/* line 165, ../sass/meow-meow.scss */
+/* line 173, ../sass/meow-meow.scss */
 .professional-work ul.technologies {
   margin-left: 0;
 }
-/* line 167, ../sass/meow-meow.scss */
+/* line 176, ../sass/meow-meow.scss */
 .professional-work ul.technologies li {
-  border: 1px solid #ddd;
   border-radius: 5px;
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   font-size: 13px;
-  margin: 5px 5px 5px 0;
-  padding: 3px;
+  margin: 0 5px 5px 0;
+  padding: 3px 4px;
 }
 
-/* line 179, ../sass/meow-meow.scss */
+/* line 187, ../sass/meow-meow.scss */
 .footer {
   background-color: #000;
   background-image: url(../images/binding_dark.png);
   border-top: 1px solid #999999;
   padding-bottom: 40px;
 }
-/* line 180, ../sass/meow-meow.scss */
+/* line 188, ../sass/meow-meow.scss */
 .footer .large-12 {
   padding: 0;
 }
-/* line 189, ../sass/meow-meow.scss */
+/* line 197, ../sass/meow-meow.scss */
 .footer a:link, .footer a:visited {
   color: #fff;
   text-decoration: underline;
 }
-/* line 194, ../sass/meow-meow.scss */
+/* line 202, ../sass/meow-meow.scss */
 .footer .me {
   float: left;
   margin: 0 20px 0 0;
 }
-/* line 197, ../sass/meow-meow.scss */
+/* line 205, ../sass/meow-meow.scss */
 .footer .me img {
   display: block;
   border-radius: 40px;
 }
-/* line 204, ../sass/meow-meow.scss */
+/* line 211, ../sass/meow-meow.scss */
 .footer h3 {
   color: #fff;
   margin: 20px 0;
 }
-/* line 209, ../sass/meow-meow.scss */
+/* line 216, ../sass/meow-meow.scss */
 .footer li {
   list-style: none;
   display: inline-block;
   margin-right: 10px;
 }
-/* line 215, ../sass/meow-meow.scss */
+/* line 222, ../sass/meow-meow.scss */
 .footer p {
   font-size: 14px;
   color: #fff;
