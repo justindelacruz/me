@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6, p, li {
     font-family: Roboto, "Helvetica Neue", sans-serif;
     font-weight: 300;
     text-align: left;
+    color: rgb(51, 51, 51);
 }
 
 ul {
@@ -80,22 +81,13 @@ ul {
     .about {
         background-color: #000;
         max-width: 100rem;
-        width: 100%;
-        padding: 20px;
-
-        .me {
-            width: 80px;
-            margin: 0 auto;
-            img {
-                border-radius: 40px;
-            }
-        }
 
         p {
-            margin: auto 200px;
-            padding: 10px 0;
+            margin: 0 auto;
+            max-width: 60rem;
             text-align: center;
             font-size: 18px;
+            padding: 20px;
             //color: rgb(88, 85, 81);
             color: #ddd;
             font-weight: 300;
@@ -126,6 +118,17 @@ ul {
         font-size: 14px;
         text-transform: uppercase;
     }
+
+    a {
+        &:link, &:visited {
+            color: rgb(51, 51, 51);
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+    }
 }
 
 .skills {
@@ -137,7 +140,6 @@ ul {
 
 .professional-work {
     text-align: center;
-    color: rgb(51, 51, 51);
     margin-bottom: 40px;
 
     h4, h5, p {
@@ -181,7 +183,6 @@ ul {
 
     background-color: #000;
     background-image: url(../images/binding_dark.png);
-    color: #fff;
     border-top: 1px solid rgb(153, 153, 153);
     padding-bottom: 40px;
 
@@ -190,10 +191,14 @@ ul {
         text-decoration: underline;
     }
 
-    .me img {
-        display: block;
-        margin: 0 auto;
-        border-radius: 40px;
+    .me {
+        float: left;
+        margin: 0 20px 0 0;
+        img {
+            display: block;
+            border-radius: 40px;
+        }
+
     }
 
     h3 {
@@ -209,5 +214,6 @@ ul {
 
     p {
         font-size: 14px;
+        color: #fff;
     }
 }

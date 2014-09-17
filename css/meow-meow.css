@@ -23,32 +23,33 @@ h1, h2, h3, h4, h5, h6, p, li {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   font-weight: 300;
   text-align: left;
+  color: #333333;
 }
 
-/* line 29, ../sass/meow-meow.scss */
+/* line 30, ../sass/meow-meow.scss */
 ul {
   margin: 0;
   padding: 0;
 }
-/* line 33, ../sass/meow-meow.scss */
+/* line 34, ../sass/meow-meow.scss */
 ul li {
   list-style-type: none;
 }
 
 /* Specific Styles */
-/* line 39, ../sass/meow-meow.scss */
+/* line 40, ../sass/meow-meow.scss */
 .head {
   max-width: 100rem;
 }
-/* line 42, ../sass/meow-meow.scss */
+/* line 43, ../sass/meow-meow.scss */
 .head .large-12 {
   padding: 0;
 }
-/* line 46, ../sass/meow-meow.scss */
+/* line 47, ../sass/meow-meow.scss */
 .head img {
   margin-top: -150px;
 }
-/* line 50, ../sass/meow-meow.scss */
+/* line 51, ../sass/meow-meow.scss */
 .head .bio {
   padding: 20px;
   position: absolute;
@@ -57,7 +58,7 @@ ul li {
   width: 100%;
   z-index: 2;
 }
-/* line 59, ../sass/meow-meow.scss */
+/* line 60, ../sass/meow-meow.scss */
 .head .bio h1, .head .bio h2 {
   display: inline-block;
   color: #fff;
@@ -65,48 +66,38 @@ ul li {
   padding: 0 10px;
   background-color: rgba(7, 7, 22, 0.9);
 }
-/* line 67, ../sass/meow-meow.scss */
+/* line 68, ../sass/meow-meow.scss */
 .head .bio h1 {
   font-size: 48px;
   text-align: center;
   font-weight: 300;
 }
-/* line 74, ../sass/meow-meow.scss */
+/* line 75, ../sass/meow-meow.scss */
 .head .bio h2 {
   font-size: 28px;
   font-weight: 100;
 }
-/* line 80, ../sass/meow-meow.scss */
+/* line 81, ../sass/meow-meow.scss */
 .head .about {
   background-color: #000;
   max-width: 100rem;
-  width: 100%;
-  padding: 20px;
 }
-/* line 86, ../sass/meow-meow.scss */
-.head .about .me {
-  width: 80px;
-  margin: 0 auto;
-}
-/* line 89, ../sass/meow-meow.scss */
-.head .about .me img {
-  border-radius: 40px;
-}
-/* line 94, ../sass/meow-meow.scss */
+/* line 85, ../sass/meow-meow.scss */
 .head .about p {
-  margin: auto 200px;
-  padding: 10px 0;
+  margin: 0 auto;
+  max-width: 60rem;
   text-align: center;
   font-size: 18px;
+  padding: 20px;
   color: #ddd;
   font-weight: 300;
 }
 
-/* line 107, ../sass/meow-meow.scss */
+/* line 99, ../sass/meow-meow.scss */
 .row.content p, .row.content li {
   font-size: 15px;
 }
-/* line 111, ../sass/meow-meow.scss */
+/* line 103, ../sass/meow-meow.scss */
 .row.content h3 {
   text-align: center;
   font-size: 28px;
@@ -114,48 +105,55 @@ ul li {
   text-transform: uppercase;
   margin: 40px 0;
 }
-/* line 120, ../sass/meow-meow.scss */
+/* line 112, ../sass/meow-meow.scss */
 .row.content h4 {
   font-size: 18px;
   font-weight: 600;
 }
-/* line 125, ../sass/meow-meow.scss */
+/* line 117, ../sass/meow-meow.scss */
 .row.content h5 {
   font-size: 14px;
   text-transform: uppercase;
 }
+/* line 123, ../sass/meow-meow.scss */
+.row.content a:link, .row.content a:visited {
+  color: #333333;
+}
+/* line 127, ../sass/meow-meow.scss */
+.row.content a:hover {
+  text-decoration: underline;
+}
 
-/* line 138, ../sass/meow-meow.scss */
+/* line 141, ../sass/meow-meow.scss */
 .professional-work {
   text-align: center;
-  color: #333333;
   margin-bottom: 40px;
 }
-/* line 143, ../sass/meow-meow.scss */
+/* line 145, ../sass/meow-meow.scss */
 .professional-work h4, .professional-work h5, .professional-work p {
   text-align: left;
 }
-/* line 147, ../sass/meow-meow.scss */
+/* line 149, ../sass/meow-meow.scss */
 .professional-work > hr {
   margin: 40px 0;
 }
-/* line 151, ../sass/meow-meow.scss */
+/* line 153, ../sass/meow-meow.scss */
 .professional-work .desktop-screenshot, .professional-work .mobile-screenshot {
   border: 1px solid #ddd;
 }
-/* line 155, ../sass/meow-meow.scss */
+/* line 157, ../sass/meow-meow.scss */
 .professional-work .desktop-screenshot {
   float: left;
 }
-/* line 159, ../sass/meow-meow.scss */
+/* line 161, ../sass/meow-meow.scss */
 .professional-work .mobile-screenshot {
   float: right;
 }
-/* line 163, ../sass/meow-meow.scss */
+/* line 165, ../sass/meow-meow.scss */
 .professional-work ul.technologies {
   margin-left: 0;
 }
-/* line 165, ../sass/meow-meow.scss */
+/* line 167, ../sass/meow-meow.scss */
 .professional-work ul.technologies li {
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -166,41 +164,45 @@ ul li {
   padding: 3px;
 }
 
-/* line 177, ../sass/meow-meow.scss */
+/* line 179, ../sass/meow-meow.scss */
 .footer {
   background-color: #000;
   background-image: url(../images/binding_dark.png);
-  color: #fff;
   border-top: 1px solid #999999;
   padding-bottom: 40px;
 }
-/* line 178, ../sass/meow-meow.scss */
+/* line 180, ../sass/meow-meow.scss */
 .footer .large-12 {
   padding: 0;
 }
-/* line 188, ../sass/meow-meow.scss */
+/* line 189, ../sass/meow-meow.scss */
 .footer a:link, .footer a:visited {
   color: #fff;
   text-decoration: underline;
 }
-/* line 193, ../sass/meow-meow.scss */
+/* line 194, ../sass/meow-meow.scss */
+.footer .me {
+  float: left;
+  margin: 0 20px 0 0;
+}
+/* line 197, ../sass/meow-meow.scss */
 .footer .me img {
   display: block;
-  margin: 0 auto;
   border-radius: 40px;
 }
-/* line 199, ../sass/meow-meow.scss */
+/* line 204, ../sass/meow-meow.scss */
 .footer h3 {
   color: #fff;
   margin: 20px 0;
 }
-/* line 204, ../sass/meow-meow.scss */
+/* line 209, ../sass/meow-meow.scss */
 .footer li {
   list-style: none;
   display: inline-block;
   margin-right: 10px;
 }
-/* line 210, ../sass/meow-meow.scss */
+/* line 215, ../sass/meow-meow.scss */
 .footer p {
   font-size: 14px;
+  color: #fff;
 }
