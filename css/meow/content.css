@@ -1,0 +1,72 @@
+/*
+Error: Undefined variable: "$small-up".
+        on line 2 of /Users/justin/Sites/me/scss/meow/content.scss
+
+1: .content {
+2:     @media #{$small-up} {
+3:         p, li {
+4:             font-size: 15px;
+5:         }
+6: 
+7:         li:last-child {
+
+Backtrace:
+/Users/justin/Sites/me/scss/meow/content.scss:2
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/script/tree/interpolation.rb:100:in `_perform'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:526:in `block in run_interp_no_strip'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:524:in `map'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:524:in `run_interp_no_strip'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:531:in `run_interp'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:499:in `visit_media'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/root_node.rb:20:in `render'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:268:in `render'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:469:in `on_file_changed'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/justin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$small-up\".\A         on line 2 of /Users/justin/Sites/me/scss/meow/content.scss\A \A 1: .content {\A 2:     @media #{$small-up} {\A 3:         p, li {\A 4:             font-size: 15px;\A 5:         }\A 6: \A 7:         li:last-child {"; }

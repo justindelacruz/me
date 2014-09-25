@@ -1,5 +1,7 @@
 <!doctype html>
-<!--
+<html class="no-js" lang="en">
+<head>
+    <!--
     /*
        /\     /\      (c) Justin Dela Cruz
       {  `---'  }     San Francisco, CA
@@ -13,53 +15,50 @@
         \__/  /(_E     \__/
           (  /
            MM
--->
-<html class="no-js" lang="en">
-<head>
+    //  -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Justin Dela Cruz | San Francisco, CA</title>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/meow-meow.css" />
+    <link rel="stylesheet" href="css/app.css">
     <script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
 
 <div class="row head">
-    <div class="large-12 columns hero">
+    <div class="medium-12 columns hero">
         <img src="images/seattle.jpg" />
 
         <div class="bio">
             <h1>Hi! I'm Justin Dela Cruz.</h1><br/>
             <h2>Full-stack software engineer</h2>
         </div>
-    </div>
-
-    <div class="large-12 columns about">
-        <p>
-            I'm a software engineer with 4+ years of experience building scalable web applications
-            and beautiful user interfaces across the modern web stack.
-        </p>
+        <div class="about">
+            <p>
+                I'm a software engineer with 4+ years of experience building scalable web applications
+                and beautiful user interfaces across the modern web stack.
+            </p>
+        </div>
     </div>
 </div>
 
 <div class="row content">
-    <div class="large-12 columns skills">
+    <div class="medium-12 columns skills">
         <h3>Techincal Skills</h3>
 
         <div class="row">
-            <div class="large-3 columns">
+            <div class="medium-3 columns">
                 <h4>Front End Development</h4>
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3 / Sass / Compass</li>
                     <li>JavaScript / jQuery + Mobile</li>
-                    <li>Require.js / AMD</li>
+                    <li>RequireJS / AngularJS</li>
                 </ul>
             </div>
-            <div class="large-3 columns">
+            <div class="medium-3 columns">
                 <h4>Back End Development</h4>
                 <ul>
                     <li>PHP</li>
@@ -69,7 +68,7 @@
 
                 </ul>
             </div>
-            <div class="large-3 columns">
+            <div class="medium-3 columns">
                 <h4>MVC Frameworks</h4>
                 <ul>
                     <li>Symfony2</li>
@@ -78,7 +77,7 @@
                     <li>Express</li>
                 </ul>
             </div>
-            <div class="large-3 columns">
+            <div class="medium-3 columns">
                 <h4>Data Stores</h4>
                 <ul>
                     <li>MySQL</li>
@@ -87,50 +86,37 @@
                     <li>ORM</li>
                 </ul>
             </div>
-
-            <!--
-            <div class="large-6 columns experience">
-                <h4>Experience</h4>
-                <ul>
-                    <li>Implementing responsive design</li>
-                    <li>Building scalable web applications</li>
-                    <li>Creating RESTful APIs</li>
-                    <li>Using MVC frameworks</li>
-                    <li>Designing beautiful, functional UIs</li>
-                </ul>
-            </div>
-            -->
         </div>
     </div>
 
-    <div class="large-12 columns professional-work">
+    <div class="medium-12 columns professional-work">
         <h3>Current Professional Work</h3>
 
         <div class="row listing">
-            <div class="large-4 columns">
+            <div class="medium-4 columns">
                 <h4><a href="http://www.cnet.com">CNET</a></h4>
                 <h5>40+ million monthly uniques</h5>
                 <hr>
-                <p>I build user-facing features in our new global platform and in-house CMS.</p>
                 <p>
-                    I also helped develop and maintain our Node.js mobile web platform, and performed regular
-                    deployments on AWS.
+                    I work on one of CNET's largest projects: rebuilding the site onto a new platform using
+                    Symfony PHP Framework.
                 </p>
+
                 <ul class="inline-list technologies">
                     <li>PHP</li>
-                    <li>Symfony</li>
+                    <li>Symfony2</li>
                     <li>MySQL</li>
                     <li>HTML5</li>
+                    <li>Solr</li>
                     <li>jQuery</li>
                     <li>Require.js</li>
                     <li>Sass</li>
-                    <li>Solr</li>
                     <li>Node.js</li>
                     <li>AWS</li>
                     <li>Mobile Web</li>
                 </ul>
             </div>
-            <div class="large-8 columns">
+            <div class="medium-8 columns">
                 <div class="desktop-screenshot">
                     <img src="images/sites/cnet.desktop.small.png" />
                 </div>
@@ -143,7 +129,7 @@
         <h3>Previous Professional Work</h3>
 
         <div class="row listing">
-            <div class="large-4 columns">
+            <div class="medium-4 columns">
                 <h4><a href="http://www.cbs.com/connect/">CBS Connect</a></h4>
                 <h5>3+ million visits per day</h5>
                 <hr>
@@ -163,7 +149,7 @@
                     <li>Varnish</li>
                 </ul>
             </div>
-            <div class="large-8 columns">
+            <div class="medium-8 columns">
                 <div class="desktop-screenshot">
                     <img src="images/sites/cbs.desktop.small.png" />
                 </div>
@@ -173,16 +159,13 @@
         <hr>
 
         <div class="row listing">
-            <div class="large-4 columns">
+            <div class="medium-4 columns">
                 <h4><a href="http://www.tv.com">TV.com</a></h4>
                 <h5>15+ million monthly uniques</h5>
                 <hr>
                 <p>
-                    Working with another engineer, I helped launch our mobile site using jQuery Mobile in
-                    under 5 months.
-                </p>
-                <p>
-                    I also developed new features and squashed bugs for the desktop site.
+                    I helped launch TV.com's first-ever mobile web experience. In a small team of 2 engineers,
+                    I used jQuery Mobile to reach production in just 4 months.
                 </p>
                 <ul class="inline-list technologies">
                     <li>Python</li>
@@ -194,7 +177,7 @@
                     <li>Mobile Web</li>
                 </ul>
             </div>
-            <div class="large-8 columns">
+            <div class="medium-8 columns">
                 <div class="desktop-screenshot">
                     <img src="images/sites/tv.desktop.small.jpg" />
                 </div>
@@ -207,7 +190,7 @@
         <hr>
 
         <div class="row listing">
-            <div class="large-4 columns">
+            <div class="medium-4 columns">
                 <h4><a href="http://www.hteht.net">HTE Enterprise</a></h4>
                 <h5>Freelance</h5>
                 <hr>
@@ -225,7 +208,7 @@
                     <li>Bootstrap</li>
                 </ul>
             </div>
-            <div class="large-8 columns">
+            <div class="medium-8 columns">
                 <div class="desktop-screenshot">
                     <img src="images/sites/hte.desktop.small.jpg" />
                 </div>
@@ -239,7 +222,7 @@
 
 <div class="footer">
     <div class="row">
-        <div class="large-8 columns">
+        <div class="medium-8 columns">
             <h3>About Me</h3>
 
             <figure class="me">
@@ -252,14 +235,14 @@
                 <a href="http://www.ucdavis.edu/">University of California, Davis</a> with a B.S. in Computer Science.
             </p>
         </div>
-        <div class="large-4 columns">
+        <div class="medium-4 columns">
             <h3>Connect</h3>
 
             <ul class="inline-list">
                 <li><a href="https://www.linkedin.com/in/justindelacruz" title="LinkedIn"><span class="fa fa-linkedin-square fa-3x"></span></a></li>
                 <li><a href="https://github.com/justindelacruz" title="GitHub"><span class="fa fa-github-square fa-3x"></span></a></li>
+                <li><a href="https://www.facebook.com/justin.edward.delacruz" rel="nofollow" title="Facebook"><span class="fa fa-facebook-square fa-3x"></span></a></li>
                 <li><a href="http://www.last.fm/user/shootthemonkey" title="Last.fm"><span class="fa fa-lastfm-square fa-3x"></span></a></li>
-                <li><a href="#" title="Resume"><span class="fa fa-file-text-o fa-3x"></span></a></li>
             </ul>
         </div>
     </div>
@@ -267,8 +250,6 @@
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
-<script>
-    $(document).foundation();
-</script>
+<script src="js/app.js"></script>
 </body>
 </html>
