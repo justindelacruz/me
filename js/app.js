@@ -1,6 +1,6 @@
 $(document).foundation();
 
-nyan = function() {
+var nyan = (function($) {
     var running = false;
 
     var init = function() {
@@ -41,8 +41,8 @@ nyan = function() {
     };
 
     return {
-        init:init
+        init: init
     }
-}();
+}(jQuery));
 
 nyan.init();
