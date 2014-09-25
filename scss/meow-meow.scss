@@ -1,0 +1,226 @@
+@import "compass/css3/images";
+
+    /*
+       /\     /\      Justin Dela Cruz
+      {  `---'  }     San Francisco, CA
+      {  O   O  }
+    ~~|~   V   ~|~~    < ~nyan~
+       \  \|/  /
+        `-----'__
+        /     \  `^\_
+       {       }\ |\_\_   W
+       |  \_/  |/ /  \_\_( )
+        \__/  /(_E     \__/
+          (  /
+           MM
+    */
+
+/* Global Styles */
+body {
+    background-color: rgb(252, 255, 255);
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    color: rgb(51, 51, 51);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+/* Specific Styles */
+.head {
+    max-width: 100rem;
+
+    .large-12 {
+        padding: 0;
+    }
+
+    img {
+        margin-top: -150px;
+    }
+
+    .bio {
+        padding: 20px;
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+
+
+        h1, h2 {
+            display: inline-block;
+            color: #fff;
+            text-align: center;
+            padding: 0 10px;
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        h1 {
+            font-size: 48px;
+            // text-transform: lowercase;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 100;
+        }
+    }
+
+    .about {
+        background-color: #000;
+        max-width: 100rem;
+
+        p {
+            margin: 0 auto;
+            max-width: 60rem;
+            text-align: center;
+            font-size: 18px;
+            padding: 20px;
+            //color: rgb(88, 85, 81);
+            color: #ddd;
+            font-weight: 300;
+        }
+    }
+}
+
+.content {
+    p, li {
+        font-size: 15px;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 28px;
+        padding: 0 10px;
+        text-transform: uppercase;
+        margin: 40px 0;
+    }
+
+
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    h5 {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    a {
+        &:link, &:visited {
+            color: rgb(51, 51, 51);
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+    }
+}
+
+.skills {
+    .languages {
+        h4, li {
+        }
+    }
+}
+
+.professional-work {
+    text-align: center;
+    margin-bottom: 40px;
+
+    h4, h5, p {
+        text-align: left;
+    }
+
+    p {
+        font-size: 0.85rem;
+        line-height: 1.4rem;
+    }
+
+    & > hr {
+        margin: 40px 0;
+    }
+
+    .desktop-screenshot, .mobile-screenshot {
+        img {
+            border: 4px solid #dadada;
+            border-radius: 10px;
+        }
+    }
+
+    .desktop-screenshot {
+        float: left;
+    }
+
+    .mobile-screenshot {
+        float: right;
+    }
+
+    ul.technologies {
+        margin-left: 0;
+
+        li {
+            border-radius: 5px;
+            background-color: #000;
+            color: #fff;
+            font-size: 13px;
+            margin: 0 5px 5px 0;
+            padding: 3px 4px;
+        }
+    }
+}
+
+.footer {
+    .large-12 {
+        padding: 0;
+    }
+
+    background-color: #000;
+    background-image: url(../images/binding_dark.png);
+    border-top: 1px solid rgb(153, 153, 153);
+    padding-bottom: 40px;
+
+    a:link, a:visited {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .me {
+        float: left;
+        margin: 0 20px 0 0;
+        img {
+            display: block;
+            border-radius: 40px;
+        }
+    }
+
+    h3 {
+        color: #fff;
+        margin: 20px 0;
+    }
+
+    li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    p {
+        font-size: 14px;
+        color: #fff;
+    }
+}
