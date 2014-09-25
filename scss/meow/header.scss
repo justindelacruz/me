@@ -1,8 +1,8 @@
 .head {
     @media #{$small-up} {
-        max-width: 100rem;
+        max-width: 100%;
 
-        .large-12 {
+        .columns {
             padding: 0;
         }
 

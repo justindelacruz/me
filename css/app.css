@@ -9009,10 +9009,10 @@ th.hide-for-touch {
 @media only screen {
   /* line 1, ../scss/meow/header.scss */
   .head {
-    max-width: 100rem;
+    max-width: 100%;
   }
   /* line 5, ../scss/meow/header.scss */
-  .head .large-12 {
+  .head .columns {
     padding: 0;
   }
   /* line 9, ../scss/meow/header.scss */
@@ -9160,7 +9160,7 @@ th.hide-for-touch {
 /* line 79, ../scss/meow/content.scss */
 .content .professional-work ul.technologies li {
   margin: 0 5px 5px 0;
-  padding: 3px 4px;
+  padding: 4px 5px;
   border-radius: 5px;
   background-color: #000000;
   color: #FFFFFF;
