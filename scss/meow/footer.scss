@@ -1,0 +1,48 @@
+.footer {
+    @media #{$small-up} {
+        background: url(../images/binding_dark.png) $black;
+        border-top: 1px solid rgb(153, 153, 153);
+        padding-bottom: 20px;
+
+        a:link, a:visited {
+            color: $white;
+            text-decoration: underline;
+        }
+
+        .me {
+            float: left;
+            margin: 0 20px 0 0;
+            img {
+                display: block;
+                border-radius: 40px;
+            }
+        }
+
+        h3 {
+            color: $white;
+            margin: 10px 0;
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 14px;
+            color: $white;
+        }
+    }
+
+    @media #{$medium-up} {
+        padding-bottom: 40px;
+
+        h3 {
+            margin: 20px 0;
+        }
+
+        li {
+            margin-right: 10px;
+        }
+    }
+}
