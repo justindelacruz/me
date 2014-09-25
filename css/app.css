@@ -9012,10 +9012,11 @@ th.hide-for-touch {
     max-width: 100%;
   }
   /* line 5, ../scss/meow/header.scss */
-  .head .columns {
+  .head .hero {
+    overflow: hidden;
     padding: 0;
   }
-  /* line 9, ../scss/meow/header.scss */
+  /* line 10, ../scss/meow/header.scss */
   .head .bio {
     position: absolute;
     top: 2%;
@@ -9024,31 +9025,32 @@ th.hide-for-touch {
     width: 100%;
     text-align: right;
   }
-  /* line 17, ../scss/meow/header.scss */
+  /* line 18, ../scss/meow/header.scss */
   .head .bio h1, .head .bio h2 {
     display: inline-block;
     color: #FFFFFF;
     text-align: center;
     margin: 1px 0;
     padding: 0 10px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
   }
-  /* line 26, ../scss/meow/header.scss */
+  /* line 27, ../scss/meow/header.scss */
   .head .bio h1 {
     font-size: 1.75rem;
     text-align: center;
     font-weight: 300;
   }
-  /* line 32, ../scss/meow/header.scss */
+  /* line 33, ../scss/meow/header.scss */
   .head .bio h2 {
     font-size: 1.375rem;
     font-weight: 100;
   }
-  /* line 38, ../scss/meow/header.scss */
+  /* line 39, ../scss/meow/header.scss */
   .head .about {
+    width: 100%;
     background-color: #000000;
   }
-  /* line 41, ../scss/meow/header.scss */
+  /* line 43, ../scss/meow/header.scss */
   .head .about p {
     margin: 0 auto;
     max-width: 60rem;
@@ -9059,27 +9061,31 @@ th.hide-for-touch {
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 53, ../scss/meow/header.scss */
+  /* line 59, ../scss/meow/header.scss */
   .head img {
     margin-top: -150px;
   }
-  /* line 57, ../scss/meow/header.scss */
+  /* line 63, ../scss/meow/header.scss */
   .head .bio {
     position: absolute;
     top: 40%;
     right: auto;
     text-align: center;
-    padding: 20px;
   }
-  /* line 64, ../scss/meow/header.scss */
+  /* line 69, ../scss/meow/header.scss */
   .head .bio h1 {
     font-size: 3rem;
   }
-  /* line 68, ../scss/meow/header.scss */
+  /* line 73, ../scss/meow/header.scss */
   .head .bio h2 {
     font-size: 1.75rem;
   }
-  /* line 74, ../scss/meow/header.scss */
+  /* line 78, ../scss/meow/header.scss */
+  .head .about {
+    position: absolute;
+    bottom: 0;
+  }
+  /* line 82, ../scss/meow/header.scss */
   .head .about p {
     padding: 20px;
     font-size: 1.125rem;
