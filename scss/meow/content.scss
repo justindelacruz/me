@@ -33,6 +33,7 @@
             }
 
             &:hover {
+                color: dodgerblue;
                 text-decoration: underline;
             }
 
@@ -46,8 +47,14 @@
     }
 
     .professional-work {
+
         text-align: center;
         margin-bottom: 40px;
+
+        h4:after {
+            content: "\000BB";
+            margin-left: 5px;
+        }
 
         h4, h5, p {
             text-align: left;

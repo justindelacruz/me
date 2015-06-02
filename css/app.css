@@ -9288,45 +9288,51 @@ th.hide-for-touch {
   }
   /* line 35, ../scss/meow/content.scss */
   .content a:hover {
+    color: dodgerblue;
     text-decoration: underline;
   }
 }
-/* line 43, ../scss/meow/content.scss */
+/* line 44, ../scss/meow/content.scss */
 .content .skills h4, .content .skills li {
   text-align: center;
 }
-/* line 48, ../scss/meow/content.scss */
+/* line 49, ../scss/meow/content.scss */
 .content .professional-work {
   text-align: center;
   margin-bottom: 40px;
 }
-/* line 52, ../scss/meow/content.scss */
+/* line 54, ../scss/meow/content.scss */
+.content .professional-work h4:after {
+  content: "\000BB";
+  margin-left: 5px;
+}
+/* line 59, ../scss/meow/content.scss */
 .content .professional-work h4, .content .professional-work h5, .content .professional-work p {
   text-align: left;
 }
-/* line 56, ../scss/meow/content.scss */
+/* line 63, ../scss/meow/content.scss */
 .content .professional-work p {
   font-size: 0.85rem;
   line-height: 1.4rem;
 }
-/* line 61, ../scss/meow/content.scss */
+/* line 68, ../scss/meow/content.scss */
 .content .professional-work > hr {
   margin: 20px 0;
 }
-/* line 65, ../scss/meow/content.scss */
+/* line 72, ../scss/meow/content.scss */
 .content .professional-work .desktop-screenshot {
   margin-bottom: 10px;
 }
-/* line 70, ../scss/meow/content.scss */
+/* line 77, ../scss/meow/content.scss */
 .content .professional-work .desktop-screenshot img, .content .professional-work .mobile-screenshot img {
   border: 4px solid #dadada;
   border-radius: 10px;
 }
-/* line 76, ../scss/meow/content.scss */
+/* line 83, ../scss/meow/content.scss */
 .content .professional-work ul.technologies {
   margin-left: 0;
 }
-/* line 79, ../scss/meow/content.scss */
+/* line 86, ../scss/meow/content.scss */
 .content .professional-work ul.technologies li {
   margin: 0 5px 5px 0;
   padding: 4px 5px;
@@ -9336,21 +9342,21 @@ th.hide-for-touch {
   font-size: 0.8125rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 91, ../scss/meow/content.scss */
+  /* line 98, ../scss/meow/content.scss */
   .content h3 {
     margin: 40px 0;
     font-size: 1.75rem;
   }
-  /* line 97, ../scss/meow/content.scss */
+  /* line 104, ../scss/meow/content.scss */
   .content .professional-work > hr {
     margin: 40px 0;
   }
-  /* line 101, ../scss/meow/content.scss */
+  /* line 108, ../scss/meow/content.scss */
   .content .professional-work .desktop-screenshot {
     float: left;
     margin-bottom: 0;
   }
-  /* line 106, ../scss/meow/content.scss */
+  /* line 113, ../scss/meow/content.scss */
   .content .professional-work .mobile-screenshot {
     float: right;
   }
@@ -9369,26 +9375,30 @@ th.hide-for-touch {
     text-decoration: underline;
   }
   /* line 12, ../scss/meow/footer.scss */
+  .footer a:hover {
+    color: dodgerblue;
+  }
+  /* line 16, ../scss/meow/footer.scss */
   .footer .me {
     float: left;
     margin: 0 20px 0 0;
   }
-  /* line 15, ../scss/meow/footer.scss */
+  /* line 19, ../scss/meow/footer.scss */
   .footer .me img {
     display: block;
     border-radius: 40px;
   }
-  /* line 21, ../scss/meow/footer.scss */
+  /* line 25, ../scss/meow/footer.scss */
   .footer h3 {
     color: white;
     margin: 10px 0;
   }
-  /* line 26, ../scss/meow/footer.scss */
+  /* line 30, ../scss/meow/footer.scss */
   .footer li {
     list-style: none;
     display: inline-block;
   }
-  /* line 31, ../scss/meow/footer.scss */
+  /* line 35, ../scss/meow/footer.scss */
   .footer p {
     font-size: 14px;
     color: white;
@@ -9399,11 +9409,11 @@ th.hide-for-touch {
   .footer {
     padding-bottom: 40px;
   }
-  /* line 40, ../scss/meow/footer.scss */
+  /* line 44, ../scss/meow/footer.scss */
   .footer h3 {
     margin: 20px 0;
   }
-  /* line 44, ../scss/meow/footer.scss */
+  /* line 48, ../scss/meow/footer.scss */
   .footer li {
     margin-right: 10px;
   }
