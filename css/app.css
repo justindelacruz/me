@@ -9282,29 +9282,31 @@ th.hide-for-touch {
     font-size: 0.875rem;
     text-transform: uppercase;
   }
-  /* line 31, ../scss/meow/content.scss */
-  .content a:link, .content a:visited {
+  /* line 30, ../scss/meow/content.scss */
+  .content .external-links a {
+    text-decoration: none;
+    font-weight: bold;
     color: #333333;
   }
   /* line 35, ../scss/meow/content.scss */
-  .content a:hover {
+  .content .external-links a:after {
+    content: "\00BB";
+    display: inline-block;
+    padding: 0 5px;
+  }
+  /* line 41, ../scss/meow/content.scss */
+  .content .external-links a:hover {
     color: dodgerblue;
-    text-decoration: underline;
   }
 }
-/* line 44, ../scss/meow/content.scss */
+/* line 49, ../scss/meow/content.scss */
 .content .skills h4, .content .skills li {
   text-align: center;
 }
-/* line 49, ../scss/meow/content.scss */
+/* line 54, ../scss/meow/content.scss */
 .content .professional-work {
   text-align: center;
   margin-bottom: 40px;
-}
-/* line 54, ../scss/meow/content.scss */
-.content .professional-work h4:after {
-  content: "\000BB";
-  margin-left: 5px;
 }
 /* line 59, ../scss/meow/content.scss */
 .content .professional-work h4, .content .professional-work h5, .content .professional-work p {
@@ -9423,3 +9425,5 @@ th.hide-for-touch {
 ul li {
   list-style-type: none;
 }
+
+/*# sourceMappingURL=app.css.map */
