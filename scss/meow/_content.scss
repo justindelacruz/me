@@ -81,6 +81,7 @@
         }
 
         ul.technologies {
+            display: none;
             margin-left: 0;
 
             li {
@@ -91,6 +92,10 @@
                 color: $white;
                 font-size: 0.8125rem;
             }
+        }
+
+        .listing {
+            margin-bottom: 20px;
         }
     }
 
