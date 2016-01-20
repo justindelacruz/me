@@ -1,0 +1,17 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "My personal portfolio.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify browser.js -o static/bundle.js",
+    "watch": "watchify browser.js -o static/bundle.js --debug --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justindelacruz/me.git"
+  },
+  "author": "Justin Dela Cruz",
+  "license": "ISC",
+  "homepage": "http://www.justindelacruz.me"
+}

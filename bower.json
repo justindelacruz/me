@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": "true",
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
+    "foundation": "zurb/bower-foundation",
+    "react": "~0.14.6"
   }
 }
