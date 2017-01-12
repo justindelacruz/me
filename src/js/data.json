@@ -1,0 +1,149 @@
+[
+  {
+    "name": "CNET Syndication Service",
+    "date": "(2016)",
+    "description": "Created a microservice that syndicates articles to 3rd parties, such as Apple News.",
+    "urls": [
+    ],
+    "skills": [
+      "Docker",
+      "PHP",
+      "Jenkins",
+      "Microservice"
+    ],
+    "images": [
+      {
+        "url": "",
+        "thumbnail_src": "static/images/sites/syndication-ipad.small.png",
+        "src": "static/images/sites/syndication-ipad.png"
+      },
+      {
+        "url": "",
+        "thumbnail_src": "static/images/sites/syndication-amp.small.png",
+        "src": "static/images/sites/syndication-amp.png"
+      }
+    ]
+  },
+  {
+    "name": "Guzzlefish",
+    "date": "(2015-2016)",
+    "description": "Guzzlefish was a quirky news site I developed and launched at CBS Interactive in 2015.",
+    "urls": [
+      {
+        "url": "http://www.guzzlefish.com/",
+        "text": "Visit Guzzlefish"
+      },
+      {
+        "url": "http://facebook.com/guzzlefish",
+        "text": "Visit Guzzlefish on Facebook"
+      }
+    ],
+    "skills": [
+      "PHP",
+      "MySQL",
+      "HTML5",
+      "JavaScript",
+      "Sass",
+      "Solr",
+      "jQuery",
+      "Memcached",
+      "Varnish",
+      "Responsive"
+    ],
+    "images": [
+      {
+        "url": "",
+        "thumbnail_src": "static/images/sites/guzzlefish.desktop.small.png",
+        "src": "static/images/sites/guzzlefish.desktop.large.png"
+      },
+      {
+        "url": "",
+        "thumbnail_src": "static/images/sites/guzzlefish.mobile.small.png",
+        "src": "static/images/sites/guzzlefish.mobile.large.png"
+      }
+    ]
+  },
+  {
+    "name": "CNET Forums",
+    "date": "(2014)",
+    "description": "Migrated the CNET Forums onto a new CMS, with a brand new UI and API",
+    "urls": [
+      {
+        "url": "http://www.cnet.com/forums/",
+        "text": "Visit CNET Forums"
+      }
+    ],
+    "skills": [
+      "PHP",
+      "MySQL",
+      "Solr",
+      "JavaScript"
+    ],
+    "images": [
+      {
+        "url": "",
+        "thumbnail_src": "static/images/sites/cnet-forums.desktop.small.png",
+        "src": "static/images/sites/cnet-forums.desktop.png"
+      },
+      {
+        "url": "",
+        "thumbnail_src": "static/images/sites/cnet-forums.mobile.small.png",
+        "src": "static/images/sites/cnet-forums.mobile.png"
+      }
+    ]
+  },
+  {
+    "name": "CBS Connect",
+    "date": "(2012)",
+    "description": "Built the RESTful API for CBS Connect, a social webapp that connects prime time TV fans to CBS shows and stars.",
+    "urls": [
+      {
+        "url": "http://www.cbs.com/connect/",
+        "text": "Visit CBS Connect"
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring",
+      "Hibernate",
+      "MySQL",
+      "Solr",
+      "Redis",
+      "API"
+    ],
+    "images": [
+      {
+        "url": "",
+        "thumbnail_src": "static/images/sites/cbs.desktop.small.png",
+        "src": "static/images/sites/cbs.desktop.png"
+      }
+    ]
+  },
+  {
+    "name": "TV.com Mobile Web",
+    "date": "(2012)",
+    "description": "Built the frontend for TV.com's first mobile web experience.",
+    "urls": [
+      {
+        "url": "http://www.tv.com/",
+        "text": "Visit TV.com"
+      }
+    ],
+    "skills": [
+      "Python",
+      "Django",
+      "jQuery",
+      "HTML5",
+      "JavaScript",
+      "CSS3",
+      "Mobile Web"
+    ],
+    "images": [
+      {
+        "url": "",
+        "thumbnail_src": "static/images/sites/tv.desktop.small.jpg",
+        "src": "static/images/sites/tv.desktop.jpg"
+      }
+    ]
+  }
+]

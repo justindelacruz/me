@@ -1,0 +1,99 @@
+.hero {
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.bio {
+    position: absolute;
+    top: 25%;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+
+    h1, h2 {
+        display: inline-block;
+        color: $color-white;
+        text-align: center;
+        margin: 1px 0;
+        padding: 0 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+        text-align: center;
+        font-weight: 100;
+        text-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
+    }
+
+    h2 {
+        font-size: 18px;
+        font-weight: 100;
+        text-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.down-arrow {
+    display: block;
+    position: absolute;
+    z-index: 1029;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 25px);
+    bottom: 20px;
+    border: 1px solid white;
+    margin: 0 auto;
+
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    line-height: 52px;
+    border-radius: 50%;
+
+    i {
+        width: 100%;
+    }
+}
+
+.about {
+    //background-image: url(../images/food.png);
+    //background-repeat: repeat;
+    background-color: $color-white;
+    color: $color-black;
+    text-align: right;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 300;
+    border-bottom: 1px solid #dadada;
+}
+
+@media #{$medium-up} {
+    .hero {
+        height: 98vh;
+    }
+
+    .about {
+        padding: 60px 0;
+    }
+
+    .bio {
+        h1 {
+            font-size: 3rem;
+            font-weight: 300;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+        }
+    }
+
+    .about {
+        font-size: 36px;
+    }
+}

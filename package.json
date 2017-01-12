@@ -1,11 +1,9 @@
 {
   "name": "me",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "My personal portfolio.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify browser.js -o static/bundle.js",
-    "watch": "watchify browser.js -o static/bundle.js --debug --verbose"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -13,5 +11,23 @@
   },
   "author": "Justin Dela Cruz",
   "license": "ISC",
-  "homepage": "http://www.justindelacruz.me"
+  "homepage": "http://www.justindelacruz.me",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.3.0",
+    "eslint": "^3.13.1",
+    "eslint-plugin-react": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^2.3.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+  }
 }

@@ -1,0 +1,61 @@
+.footer {
+    background: url(../images/binding_dark.png) $color-black;
+    border-top: 1px solid rgb(153, 153, 153);
+
+    &__me {
+        background-image: url('../images/oldisthenewnew.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+    }
+
+    &__social {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 30vh;
+
+        a:link, a:visited {
+            color: $color-white;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: dodgerblue;
+        }
+
+        ul {
+            margin: 0 auto;
+            padding: 0;
+            display: inline-block;
+        }
+
+        li {
+            display: inline-block;
+            list-style: none;
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+
+
+
+@media #{$large-up} {
+    .footer {
+        display: flex;
+
+        &__me {
+            width: 600px;
+            height: 600px;
+        }
+
+        &__social {
+            flex: 1;
+            height: 600px;
+        }
+    }
+}

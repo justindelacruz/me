@@ -1,5 +1,6 @@
 /bower_components/*
-/.sass-cache/*
+/.sass-cache
 *.DS_Store
 /stylesheets/*
 node_modules/
+.idea/

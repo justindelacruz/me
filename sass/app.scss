@@ -1,0 +1,52 @@
+@import "vars";
+
+html, body {
+    font-size: 100%;
+}
+
+body {
+    background: #fcffff;
+    color: #333333;
+    padding: 0;
+    margin: 0;
+    font-family: $main-font;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5;
+    position: relative;
+    cursor: auto;
+}
+
+ul {
+    li {
+        list-style-type: none;
+    }
+}
+
+a {
+    // color: #2793C7;
+    color: dodgerblue;
+    text-decoration: none;
+
+    &:hover {
+        color: red;
+    }
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.625rem;
+    padding: 0 10px;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@import "meow/header";
+@import "meow/content";
+@import "meow/footer";
+
