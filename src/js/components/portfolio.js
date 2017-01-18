@@ -4,7 +4,7 @@ const PortfolioItem = require('./portfolio-item');
 class Portfolio extends React.Component {
   render() {
     return(
-      <div className="portfolio">
+      <div>
         {this.props.items.map(function(item, i) {
           return <PortfolioItem name={item['name']}
                                 date={item['date']}

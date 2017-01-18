@@ -227,14 +227,15 @@ img {
   .footer__header {
     text-transform: none;
     color: #FFFFFF;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 32px;
-    margin-bottom: 20px; }
+    margin: 0 0 30px; }
   .footer__social {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 30vh; }
+    height: 30vh;
+    padding: 30px 0; }
     .footer__social a:link, .footer__social a:visited {
       color: #FFFFFF;
       text-decoration: underline; }
