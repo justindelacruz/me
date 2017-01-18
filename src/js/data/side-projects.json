@@ -26,6 +26,10 @@
     "date": "(2015)",
     "description": "Built a Google Chrome extension for that replaces the user's Start Page with trending news and full screen images from CBS Interactive sites, such as CBS News and CNET.<br /><br />Created for a 24-hour hackathon.",
     "urls": [
+      {
+        "url": "https://github.com/justindelacruz/spread",
+        "text": "Visit Github"
+      }
     ],
     "skills": [
       "React",
@@ -54,6 +58,14 @@
     "date": "(2015)",
     "description": "Created a searchable transcript database for the 'Welcome to Nightvale' podcast. Text is programatically timed to streaming audio, so you can read along and search across entire podcast episodes.",
     "urls": [
+      {
+        "url": "http://www.podcaps.io/",
+        "text": "Visit Podcaps.io"
+      },
+      {
+        "url": "https://github.com/justindelacruz/podcaps",
+        "text": "Visit Github"
+      }
     ],
     "skills": [
       "Python",
