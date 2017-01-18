@@ -259,4 +259,5 @@ img {
       height: 600px; }
     .footer__social {
       flex: 1;
-      height: 600px; } }
+      height: 600px;
+      box-sizing: border-box; } }
