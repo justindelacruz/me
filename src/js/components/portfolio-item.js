@@ -1,17 +1,20 @@
 import React from 'react';
 const PortfolioUrl = require('./portfolio-url');
 const PortfolioSkill = require('./portfolio-skill');
+const PortfolioAssets = require('./portfolio-assets');
 
 class PortfolioItem extends React.Component {
+  static createTextMarkup(text) {
+    return {__html: text};
+  }
+
   render() {
     return(
       <div className="portfolio-item">
         <div className="portfolio-item__description">
           <div className="portfolio-item__title">{this.props.name} <span className="portfolio-item__date">{this.props.date}</span></div>
 
-          <p className="portfolio-item__text">
-            {this.props.description}
-          </p>
+          <p className="portfolio-item__text" dangerouslySetInnerHTML={PortfolioItem.createTextMarkup(this.props.description)} />
 
           <ul className="portfolio-item__text portfolio-item__links">
             {this.props.urls.map(function(item, i) {
@@ -26,14 +29,7 @@ class PortfolioItem extends React.Component {
           </ul>
         </div>
 
-        <div className="col portfolio-item__images">
-          {this.props.images.map(function(item, i) {
-            return (
-              <a className="portfolio-item__image" href={item.url} rel="nofollow" target="_blank" key={i}>
-                <img src={item.thumbnail_src} />
-              </a>)
-          })}
-        </div>
+        <PortfolioAssets items={this.props.assets} />
       </div>
     );
   }
@@ -45,7 +41,7 @@ PortfolioItem.propTypes = {
   description: React.PropTypes.string,
   urls: React.PropTypes.arrayOf(React.PropTypes.objectOf(React.PropTypes.string)),
   skills: React.PropTypes.arrayOf(React.PropTypes.string),
-  images: React.PropTypes.arrayOf(React.PropTypes.objectOf(React.PropTypes.string))
+  assets: React.PropTypes.arrayOf(React.PropTypes.object)
 };
 
 module.exports = PortfolioItem;

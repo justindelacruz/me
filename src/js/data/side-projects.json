@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Omnibot: Analytics Slackbot",
+    "date": "(2016)",
+    "description": "Created a Slackbot that fetches real-time, on-demand metrics from our analytics backend.<br /><br />Created for a 24-hour hackathon.",
+    "urls": [
+    ],
+    "skills": [
+      "Node",
+      "AWS Lambda",
+      "Slack"
+    ],
+    "assets": [
+      {
+        "type": "image",
+        "thumbnail_src": "static/images/sites/slackbot.small.png",
+        "src": "static/images/sites/slackbot.large.png",
+        "width": 671,
+        "height": 338,
+        "title": "Omnibot (2016): A Slackbot that fetches real-time, on-demand metrics from our analytics backend."
+      }
+    ]
+  },
+  {
+    "name": "Spread - Google Chrome Extension",
+    "date": "(2015)",
+    "description": "Built a Google Chrome extension for that replaces the user's Start Page with trending news and full screen images from CBS Interactive sites, such as CBS News and CNET.<br /><br />Created for a 24-hour hackathon.",
+    "urls": [
+    ],
+    "skills": [
+      "React",
+      "Sass",
+      "Google Chrome Extensions"
+    ],
+    "assets": [
+      {
+        "type": "image",
+        "thumbnail_src": "static/images/sites/spread.desktop.small.png",
+        "src": "static/images/sites/spread.desktop.large.png",
+        "width": 1024,
+        "height": 640,
+        "title": "Spread (2015): A Google Chrome extension for that replaces the user's Start Page with trending news and full screen images."
+      },
+      {
+        "type": "youtube",
+        "src": "https://www.youtube.com/embed/smaUnlxGRYA",
+        "width": 185,
+        "height": 266
+      }
+    ]
+  },
+  {
+    "name": "Podcaps: Searchable Podcasts",
+    "date": "(2015)",
+    "description": "Created a searchable transcript database for the 'Welcome to Nightvale' podcast. Text is programatically timed to streaming audio, so you can read along and search across entire podcast episodes.",
+    "urls": [
+    ],
+    "skills": [
+      "Python",
+      "Flask",
+      "Angular",
+      "MySQL",
+      "Elasticsearch",
+      "Heroku"
+    ],
+    "assets": [
+      {
+        "type": "image",
+        "thumbnail_src": "static/images/sites/podcaps.desktop.small.png",
+        "src": "static/images/sites/podcaps.desktop.large.png",
+        "width": 1372,
+        "height": 910,
+        "title": "Podcaps (2015): A searchable transcript database for the 'Welcome to Nightvale' podcast. Text is programatically timed to streaming audio, so you can read along and search across entire podcast episodes."
+      },
+      {
+        "type": "image",
+        "thumbnail_src": "static/images/sites/podcaps.mobile.small.png",
+        "src": "static/images/sites/podcaps.mobile.large.png",
+        "width": 255,
+        "height": 453,
+        "title": "Podcaps (2015): A searchable transcript database for the 'Welcome to Nightvale' podcast. Text is programatically timed to streaming audio, so you can read along and search across entire podcast episodes."
+      }
+    ]
+  },
+  {
+    "name": "n-degrees",
+    "date": "(2014)",
+    "description": "Built a tool to calculate distance (degrees of separation) between two news articles based on their embedded links, using Dijkstra's algorithm.<br /><br />Created for a 24-hour hackathon.",
+    "urls": [
+    ],
+    "skills": [
+      "Python",
+      "MySQL",
+      "Solr"
+    ],
+    "assets": [
+      {
+        "type": "image",
+        "thumbnail_src": "static/images/sites/degrees.web.small.png",
+        "src": "static/images/sites/degrees.web.large.png",
+        "width": 1024,
+        "height": 946,
+        "title": "n-degrees (2014): A tool to calculate distance (degrees of separation) between two news articles based on their embedded links, using Dijkstra's algorithm."
+      }
+    ]
+  }
+]

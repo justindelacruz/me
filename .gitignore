@@ -1,4 +1,4 @@
-/bower_components/*
+#/bower_components/* # Fix this later, we don't want to shove everything into github
 /.sass-cache
 *.DS_Store
 /stylesheets/*

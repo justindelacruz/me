@@ -26,14 +26,14 @@
     }
 
     h1 {
-        font-size: 26px;
+        font-size: 32px;
         text-align: center;
         font-weight: 100;
         text-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 100;
         text-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
     }
@@ -65,17 +65,39 @@
     //background-image: url(../images/food.png);
     //background-repeat: repeat;
     background-color: $color-white;
-    color: $color-black;
-    text-align: right;
     padding: 20px 0;
-    font-size: 18px;
-    font-weight: 300;
+    border-top: 1px solid #dadada;
     border-bottom: 1px solid #dadada;
+
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    &__gravatar {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+    }
+
+    &__body {
+        flex: 1;
+        font-size: 18px;
+        font-weight: 300;
+        color: $color-black;
+    }
 }
 
 @media #{$medium-up} {
     .hero {
-        height: 98vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
     }
 
     .about {
@@ -83,6 +105,9 @@
     }
 
     .bio {
+        position: relative;
+        top: 0;
+
         h1 {
             font-size: 3rem;
             font-weight: 300;
@@ -94,6 +119,18 @@
     }
 
     .about {
-        font-size: 36px;
+        .content {
+            flex-direction: row;
+        }
+
+        &__body {
+            font-size: 24px;
+        }
+
+        &__gravatar {
+            margin-right: 40px;
+            border-radius: 50%;
+        }
+
     }
 }

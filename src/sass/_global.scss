@@ -1,5 +1,3 @@
-@import "vars";
-
 html, body {
     font-size: 100%;
 }
@@ -46,7 +44,8 @@ img {
     height: auto;
 }
 
-@import "meow/header";
-@import "meow/content";
-@import "meow/footer";
-
+@mixin clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}

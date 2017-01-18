@@ -1,8 +1,8 @@
 [
   {
-    "name": "CNET Syndication Service",
+    "name": "Syndication Service",
     "date": "(2016)",
-    "description": "Created a microservice that syndicates articles to 3rd parties, such as Apple News.",
+    "description": "Created a microservice that syndicates CNET articles to 3rd parties, such as Apple News.",
     "urls": [
     ],
     "skills": [
@@ -11,23 +11,29 @@
       "Jenkins",
       "Microservice"
     ],
-    "images": [
+    "assets": [
       {
-        "url": "",
+        "type": "image",
         "thumbnail_src": "static/images/sites/syndication-ipad.small.png",
-        "src": "static/images/sites/syndication-ipad.png"
+        "src": "static/images/sites/syndication-ipad.large.png",
+        "width": 1024,
+        "height": 768,
+        "title": "Syndication Service (2016) - Apple News"
       },
       {
-        "url": "",
+        "type": "image",
         "thumbnail_src": "static/images/sites/syndication-amp.small.png",
-        "src": "static/images/sites/syndication-amp.png"
+        "src": "static/images/sites/syndication-amp.large.png",
+        "width": 412,
+        "height": 732,
+        "title": "Syndication Service (2016) - Google AMP"
       }
     ]
   },
   {
     "name": "Guzzlefish",
     "date": "(2015-2016)",
-    "description": "Guzzlefish was a quirky news site I developed and launched at CBS Interactive in 2015.",
+    "description": "Guzzlefish was a quirky news site that I developed and launched at CBS Interactive.",
     "urls": [
       {
         "url": "http://www.guzzlefish.com/",
@@ -50,23 +56,29 @@
       "Varnish",
       "Responsive"
     ],
-    "images": [
+    "assets": [
       {
-        "url": "",
+        "type": "image",
         "thumbnail_src": "static/images/sites/guzzlefish.desktop.small.png",
-        "src": "static/images/sites/guzzlefish.desktop.large.png"
+        "src": "static/images/sites/guzzlefish.desktop.large.jpg",
+        "width": 1280,
+        "height": 798,
+        "title": "Guzzlefish (2015-2016) - Desktop"
       },
       {
-        "url": "",
+        "type": "image",
         "thumbnail_src": "static/images/sites/guzzlefish.mobile.small.png",
-        "src": "static/images/sites/guzzlefish.mobile.large.png"
+        "src": "static/images/sites/guzzlefish.mobile.large.png",
+        "width": 600,
+        "height": 798,
+        "title": "Guzzlefish (2015-2016) - Mobile Web"
       }
     ]
   },
   {
     "name": "CNET Forums",
     "date": "(2014)",
-    "description": "Migrated the CNET Forums onto a new CMS, with a brand new UI and API",
+    "description": "Migrated the CNET Forums onto a new CMS.",
     "urls": [
       {
         "url": "http://www.cnet.com/forums/",
@@ -79,16 +91,22 @@
       "Solr",
       "JavaScript"
     ],
-    "images": [
+    "assets": [
       {
-        "url": "",
+        "type": "image",
         "thumbnail_src": "static/images/sites/cnet-forums.desktop.small.png",
-        "src": "static/images/sites/cnet-forums.desktop.png"
+        "src": "static/images/sites/cnet-forums.desktop.png",
+        "width": 1024,
+        "height": 818,
+        "title": "CNET Forums (2014) - Desktop"
       },
       {
-        "url": "",
+        "type": "image",
         "thumbnail_src": "static/images/sites/cnet-forums.mobile.small.png",
-        "src": "static/images/sites/cnet-forums.mobile.png"
+        "src": "static/images/sites/cnet-forums.mobile.png",
+        "width": 412,
+        "height": 732,
+        "title": "CNET Forums (2014) - Mobile Web"
       }
     ]
   },
@@ -111,11 +129,14 @@
       "Redis",
       "API"
     ],
-    "images": [
+    "assets": [
       {
-        "url": "",
+        "type": "image",
         "thumbnail_src": "static/images/sites/cbs.desktop.small.png",
-        "src": "static/images/sites/cbs.desktop.png"
+        "src": "static/images/sites/cbs.desktop.large.jpg",
+        "width": 1028,
+        "height": 675,
+        "title": "CBS Connect (2012)"
       }
     ]
   },
@@ -138,11 +159,14 @@
       "CSS3",
       "Mobile Web"
     ],
-    "images": [
+    "assets": [
       {
-        "url": "",
+        "type": "image",
         "thumbnail_src": "static/images/sites/tv.desktop.small.jpg",
-        "src": "static/images/sites/tv.desktop.jpg"
+        "src": "static/images/sites/tv-mobile-large.jpg",
+        "width": 640,
+        "height": 919,
+        "title": "TV.com (2012) - Mobile Web"
       }
     ]
   }

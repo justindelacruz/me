@@ -15,13 +15,13 @@ const dependencies = [
 let scriptsCount = 0;
 
 gulp.task('sass', function () {
-  return gulp.src('./sass/**/*.scss')
+  return gulp.src('./src/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./static/css'));
 });
 
 gulp.task('sass:watch', function () {
-  gulp.watch('./sass/**/*.scss', ['sass']);
+  gulp.watch('./src/sass/**/*.scss', ['sass']);
 });
 
 gulp.task('js', function () {
@@ -33,7 +33,7 @@ gulp.task('js:deploy', function (){
 });
 
 gulp.task('js:watch', function () {
-  return gulp.watch(['./src/**/*.js', './src/**/*.json'], ['js']);
+  return gulp.watch(['./src/js/**/*.js', './src/js/**/*.json'], ['js']);
 });
 
 gulp.task('default', ['sass', 'sass:watch', 'js', 'js:watch']);

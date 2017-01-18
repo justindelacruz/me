@@ -10,6 +10,14 @@
         height: 50vh;
     }
 
+    &__header {
+        text-transform: none;
+        color: $color-white;
+        font-weight: 300;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
     &__social {
         display: flex;
         flex-direction: column;
@@ -40,9 +48,6 @@
         }
     }
 }
-
-
-
 
 @media #{$large-up} {
     .footer {

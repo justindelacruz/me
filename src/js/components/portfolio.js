@@ -11,7 +11,7 @@ class Portfolio extends React.Component {
                                 description={item['description']}
                                 urls={item['urls']}
                                 skills={item['skills']}
-                                images={item['images']}
+                                assets={item['assets']}
                                 key={i} />
         })}
       </div>
